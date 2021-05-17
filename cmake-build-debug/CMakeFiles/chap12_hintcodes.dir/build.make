@@ -61,10 +61,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes
+CMAKE_SOURCE_DIR = C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/chap12_hintcodes.dir/depend.make
@@ -77,60 +77,30 @@ include CMakeFiles/chap12_hintcodes.dir/flags.make
 
 CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj: CMakeFiles/chap12_hintcodes.dir/flags.make
 CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj: ../puzmon1hint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\chap12_hintcodes.dir\puzmon1hint.c.obj -c C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\puzmon1hint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\chap12_hintcodes.dir\puzmon1hint.c.obj -c C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\puzmon1hint.c
 
 CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\puzmon1hint.c > CMakeFiles\chap12_hintcodes.dir\puzmon1hint.c.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\puzmon1hint.c > CMakeFiles\chap12_hintcodes.dir\puzmon1hint.c.i
 
 CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\puzmon1hint.c -o CMakeFiles\chap12_hintcodes.dir\puzmon1hint.c.s
-
-CMakeFiles/chap12_hintcodes.dir/puzmon2hint.c.obj: CMakeFiles/chap12_hintcodes.dir/flags.make
-CMakeFiles/chap12_hintcodes.dir/puzmon2hint.c.obj: ../puzmon2hint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/chap12_hintcodes.dir/puzmon2hint.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\chap12_hintcodes.dir\puzmon2hint.c.obj -c C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\puzmon2hint.c
-
-CMakeFiles/chap12_hintcodes.dir/puzmon2hint.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chap12_hintcodes.dir/puzmon2hint.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\puzmon2hint.c > CMakeFiles\chap12_hintcodes.dir\puzmon2hint.c.i
-
-CMakeFiles/chap12_hintcodes.dir/puzmon2hint.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chap12_hintcodes.dir/puzmon2hint.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\puzmon2hint.c -o CMakeFiles\chap12_hintcodes.dir\puzmon2hint.c.s
-
-CMakeFiles/chap12_hintcodes.dir/puzmon3hint.c.obj: CMakeFiles/chap12_hintcodes.dir/flags.make
-CMakeFiles/chap12_hintcodes.dir/puzmon3hint.c.obj: ../puzmon3hint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/chap12_hintcodes.dir/puzmon3hint.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\chap12_hintcodes.dir\puzmon3hint.c.obj -c C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\puzmon3hint.c
-
-CMakeFiles/chap12_hintcodes.dir/puzmon3hint.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chap12_hintcodes.dir/puzmon3hint.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\puzmon3hint.c > CMakeFiles\chap12_hintcodes.dir\puzmon3hint.c.i
-
-CMakeFiles/chap12_hintcodes.dir/puzmon3hint.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chap12_hintcodes.dir/puzmon3hint.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\puzmon3hint.c -o CMakeFiles\chap12_hintcodes.dir\puzmon3hint.c.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\puzmon1hint.c -o CMakeFiles\chap12_hintcodes.dir\puzmon1hint.c.s
 
 # Object files for target chap12_hintcodes
 chap12_hintcodes_OBJECTS = \
-"CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj" \
-"CMakeFiles/chap12_hintcodes.dir/puzmon2hint.c.obj" \
-"CMakeFiles/chap12_hintcodes.dir/puzmon3hint.c.obj"
+"CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj"
 
 # External object files for target chap12_hintcodes
 chap12_hintcodes_EXTERNAL_OBJECTS =
 
 chap12_hintcodes.exe: CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj
-chap12_hintcodes.exe: CMakeFiles/chap12_hintcodes.dir/puzmon2hint.c.obj
-chap12_hintcodes.exe: CMakeFiles/chap12_hintcodes.dir/puzmon3hint.c.obj
 chap12_hintcodes.exe: CMakeFiles/chap12_hintcodes.dir/build.make
 chap12_hintcodes.exe: CMakeFiles/chap12_hintcodes.dir/linklibs.rsp
 chap12_hintcodes.exe: CMakeFiles/chap12_hintcodes.dir/objects1.rsp
 chap12_hintcodes.exe: CMakeFiles/chap12_hintcodes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable chap12_hintcodes.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable chap12_hintcodes.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\chap12_hintcodes.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +113,6 @@ CMakeFiles/chap12_hintcodes.dir/clean:
 .PHONY : CMakeFiles/chap12_hintcodes.dir/clean
 
 CMakeFiles/chap12_hintcodes.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\cmake-build-debug C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\cmake-build-debug C:\Users\flame\Desktop\NewFolder\C\スッキリわかるc言語入門\chap12_hintcodes\cmake-build-debug\CMakeFiles\chap12_hintcodes.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\cmake-build-debug C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\cmake-build-debug C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\cmake-build-debug\CMakeFiles\chap12_hintcodes.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/chap12_hintcodes.dir/depend
 

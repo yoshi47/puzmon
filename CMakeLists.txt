@@ -5,5 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(chap12_hintcodes
         puzmon1hint.c
-        puzmon2hint.c
-        puzmon3hint.c)
+        )

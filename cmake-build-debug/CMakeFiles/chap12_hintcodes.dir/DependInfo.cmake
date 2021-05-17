@@ -4,9 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/flame/Desktop/NewFolder/C/スッキリわかるc言語入門/chap12_hintcodes/puzmon1hint.c" "C:/Users/flame/Desktop/NewFolder/C/スッキリわかるc言語入門/chap12_hintcodes/cmake-build-debug/CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj"
-  "C:/Users/flame/Desktop/NewFolder/C/スッキリわかるc言語入門/chap12_hintcodes/puzmon2hint.c" "C:/Users/flame/Desktop/NewFolder/C/スッキリわかるc言語入門/chap12_hintcodes/cmake-build-debug/CMakeFiles/chap12_hintcodes.dir/puzmon2hint.c.obj"
-  "C:/Users/flame/Desktop/NewFolder/C/スッキリわかるc言語入門/chap12_hintcodes/puzmon3hint.c" "C:/Users/flame/Desktop/NewFolder/C/スッキリわかるc言語入門/chap12_hintcodes/cmake-build-debug/CMakeFiles/chap12_hintcodes.dir/puzmon3hint.c.obj"
+  "C:/Users/flame/Desktop/NewFolder/C/puzzle/chap12_hintcodes/puzmon1hint.c" "C:/Users/flame/Desktop/NewFolder/C/puzzle/chap12_hintcodes/cmake-build-debug/CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
