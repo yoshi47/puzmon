@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj"
+  "CMakeFiles/chap12_hintcodes.dir/puzmon1.c.obj"
   "chap12_hintcodes.exe"
   "chap12_hintcodes.exe.manifest"
   "chap12_hintcodes.pdb"

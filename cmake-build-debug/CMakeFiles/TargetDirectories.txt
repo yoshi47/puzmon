@@ -1,3 +1,3 @@
-C:/Users/flame/Desktop/NewFolder/C/puzzle/chap12_hintcodes/cmake-build-debug/CMakeFiles/chap12_hintcodes.dir
-C:/Users/flame/Desktop/NewFolder/C/puzzle/chap12_hintcodes/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/flame/Desktop/NewFolder/C/puzzle/chap12_hintcodes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/flame/Desktop/NewFolder/C/puzzle/puzmon/cmake-build-debug/CMakeFiles/chap12_hintcodes.dir
+C:/Users/flame/Desktop/NewFolder/C/puzzle/puzmon/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/flame/Desktop/NewFolder/C/puzzle/puzmon/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -66,10 +66,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes
+CMAKE_SOURCE_DIR = C:\Users\flame\Desktop\NewFolder\C\puzzle\puzmon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\flame\Desktop\NewFolder\C\puzzle\puzmon\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\cmake-build-debug\CMakeFiles C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\flame\Desktop\NewFolder\C\puzzle\puzmon\cmake-build-debug\CMakeFiles C:\Users\flame\Desktop\NewFolder\C\puzzle\puzmon\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\flame\Desktop\NewFolder\C\puzzle\chap12_hintcodes\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\flame\Desktop\NewFolder\C\puzzle\puzmon\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,32 +141,32 @@ chap12_hintcodes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chap12_hintcodes.dir\build.make CMakeFiles/chap12_hintcodes.dir/build
 .PHONY : chap12_hintcodes/fast
 
-puzmon1hint.obj: puzmon1hint.c.obj
+puzmon1.obj: puzmon1.c.obj
 
-.PHONY : puzmon1hint.obj
+.PHONY : puzmon1.obj
 
 # target to build an object file
-puzmon1hint.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chap12_hintcodes.dir\build.make CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.obj
-.PHONY : puzmon1hint.c.obj
+puzmon1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chap12_hintcodes.dir\build.make CMakeFiles/chap12_hintcodes.dir/puzmon1.c.obj
+.PHONY : puzmon1.c.obj
 
-puzmon1hint.i: puzmon1hint.c.i
+puzmon1.i: puzmon1.c.i
 
-.PHONY : puzmon1hint.i
+.PHONY : puzmon1.i
 
 # target to preprocess a source file
-puzmon1hint.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chap12_hintcodes.dir\build.make CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.i
-.PHONY : puzmon1hint.c.i
+puzmon1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chap12_hintcodes.dir\build.make CMakeFiles/chap12_hintcodes.dir/puzmon1.c.i
+.PHONY : puzmon1.c.i
 
-puzmon1hint.s: puzmon1hint.c.s
+puzmon1.s: puzmon1.c.s
 
-.PHONY : puzmon1hint.s
+.PHONY : puzmon1.s
 
 # target to generate assembly for a file
-puzmon1hint.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chap12_hintcodes.dir\build.make CMakeFiles/chap12_hintcodes.dir/puzmon1hint.c.s
-.PHONY : puzmon1hint.c.s
+puzmon1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chap12_hintcodes.dir\build.make CMakeFiles/chap12_hintcodes.dir/puzmon1.c.s
+.PHONY : puzmon1.c.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... chap12_hintcodes
-	@echo ... puzmon1hint.obj
-	@echo ... puzmon1hint.i
-	@echo ... puzmon1hint.s
+	@echo ... puzmon1.obj
+	@echo ... puzmon1.i
+	@echo ... puzmon1.s
 .PHONY : help
 
 
