@@ -45,7 +45,7 @@ typedef struct PARTY {
   // HINT: 味方モンスター数を格納するメンバ
   const int numMon;
   // HINT: 最大HP（不変）を格納するメンバ
-  const int maxhp;
+  const int maxHp;
   // HINT: HPを格納するメンバ
   int hp;
   // HINT: 防御力（不変）を格納するメンバ
@@ -58,11 +58,17 @@ int goDungeon(Party *pParty, Dungeon *pDungeon);
 
 int doBattle(Party *pParty, Monster *pEnemy);
 
-// HINT: organizePartyのプロトタイプ宣言
 Party organizeParty(char *playerName, Monster *monster, int numMon);
 
-// HINT: showPartyのプロトタイプ宣言
 void showParty(Party *pParty);
+
+int onPlayerTurn(Party *pParty, Monster *pEnemy);
+
+int doAttack(Party *pParty, Monster *pEnemy);
+
+int onEnemyTurn(Party *pParty, Monster *pEnemy);
+
+int doEnemyAttack(Party *pParty, Monster *pEnemy);
 
 // ユーティリティ関数
 void printMonsterName(Monster *monster);
@@ -150,11 +156,15 @@ int goDungeon(/* パーティのアドレス */Party *pParty, Dungeon *pDungeon)
 // (3)バトル開始から終了までの流れ
 int doBattle(Party *pParty, Monster *pEnemy) {
   printMonsterName(pEnemy);
-  printf("が現れた！\n");
+  printf("が現れた！\n\n");
 
-  // ダミーのため速攻倒す
-  printMonsterName(pEnemy);
-  printf("を倒した！\n");
+  while (pParty->hp > 0 && pEnemy->hp > 0) {
+    onPlayerTurn(pParty, pEnemy);
+    if (pEnemy->hp > 0) {
+      onEnemyTurn(pParty, pEnemy);
+    }
+  }
+
   return 1;
 }
 
@@ -196,6 +206,39 @@ void showParty(/* パーティのアドレス*/Party *pParty) {
            pParty->monsters[i].defense);
   }
   printf("------------------------\n\n");
+}
+
+int onPlayerTurn(Party *pParty, Monster *pEnemy) {
+  printf("【%sのターン】\n", pParty->playerName);
+  doAttack(pParty, pEnemy);
+  return 1;
+}
+
+int doAttack(Party *pParty, Monster *pEnemy) {
+  int sumAttack = 80;
+  pEnemy->hp -= sumAttack;
+
+  printf("%dのダメージを与えた\n", sumAttack);
+  if (pEnemy->hp <= 0) {
+    printMonsterName(pEnemy);
+    printf("を倒した！\n");
+  }
+  return 1;
+}
+
+int onEnemyTurn(Party *pParty, Monster *pEnemy) {
+  printf("【%sのターン】\n", pEnemy->name);
+  doEnemyAttack(pParty, pEnemy);
+  printf("\n");
+  return 0;
+}
+
+int doEnemyAttack(Party *pParty, Monster *pEnemy) {
+  int damage = 20;
+  pParty->hp -= damage;
+
+  printf("%dのダメージを受けた\n", damage);
+  return 1;
 }
 /*** ユーティリティ関数宣言 ***/
 
